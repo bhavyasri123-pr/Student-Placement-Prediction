@@ -1,58 +1,41 @@
-\# Student Placement Prediction System
+# Student Placement Prediction System
 
+A Machine Learning based web application that predicts student placement chances using academic and profile information.
 
+## Features
 
-Machine Learning project that predicts whether a student is likely to get placed based on:
+- Placement Prediction
+- Placement Probability Score
+- Profile Evaluation
+- Placement Recommendations
+- Interactive Streamlit Dashboard
 
+## Tech Stack
 
+- Python
+- Pandas
+- Scikit-Learn
+- Streamlit
+- Joblib
 
-\- Age
+## Machine Learning
 
-\- Gender
+- Decision Tree Classifier
+- Label Encoding
+- Feature Importance Analysis
 
-\- Stream
+## Dataset Features
 
-\- CGPA
+- Age
+- Gender
+- Stream
+- CGPA
+- Internships
+- Hostel Status
+- Backlogs
 
-\- Internships
+## Run Locally
 
-\- Hostel Status
-
-\- Backlog History
-
-
-
-\## Technologies Used
-
-
-
-\- Python
-
-\- Pandas
-
-\- Scikit-Learn
-
-\- Streamlit
-
-
-
-\## Accuracy
-
-
-
-Decision Tree Accuracy: 88.05%
-
-
-
-\## Features
-
-
-
-\- Placement Prediction
-
-\- Placement Probability
-
-\- Interactive Dashboard
-
-\- Profile Recommendations
-
+```bash
+pip install -r requirements.txt
+streamlit run app.py
