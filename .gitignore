@@ -2,10 +2,6 @@
 __pycache__/
 *.pyc
 
-placement_model.pkl
-gender_encoder.pkl
-stream_encoder.pkl
-
 .streamlit/
 
 .vscode/
